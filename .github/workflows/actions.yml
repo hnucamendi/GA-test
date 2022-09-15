@@ -12,4 +12,4 @@ jobs:
         with:
           who-to-greet: Harold
       - name: calculating time
-        run: echo "%{{ steps.outputs.time }}"
+        run: echo "${{ steps.outputs.time }}"
